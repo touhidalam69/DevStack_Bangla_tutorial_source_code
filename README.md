@@ -13,7 +13,7 @@ Each zip is the project that ran in its video: the code, the commands and their 
 <!-- videos:start -->
 | # | Video | Source code |
 | --- | --- | --- |
-| 0 | Will AI Replace Software Engineers? Junior Developer-দের 2026 Guide | [src/ai-junior-dev-careers](src/ai-junior-dev-careers) |
+| 0 | [Will AI Replace Software Engineers? Junior Developer-দের 2026 Guide](https://youtu.be/9nSyX7AyogQ) | [src/ai-junior-dev-careers](src/ai-junior-dev-careers) |
 | 1 | ASP.NET Core Web API with Angular Bangla Tutorial \| Full Stack Ep 1 | [src/jobtrack-ep01-setup](src/jobtrack-ep01-setup) |
 | 2 | Stack Overflow Survey 2026 বাংলায়: Developer-দের ১০টা বড় Finding | [src/so-survey-2026](src/so-survey-2026) |
 | 3 | Entity Framework Core Tutorial Bangla: SQL Server CRUD \| Ep 2 | [src/jobtrack-ep02-efcore](src/jobtrack-ep02-efcore) |

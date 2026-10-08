@@ -2,7 +2,7 @@
 
 # Will AI Replace Software Engineers? A 2026 Guide for Junior Developers
 
-Source code for the video **Will AI Replace Software Engineers? Junior Developer-দের 2026 Guide** on [DevStack Bangla](https://www.youtube.com/@devstackbangla).
+Source code for the video **Will AI Replace Software Engineers? Junior Developer-দের 2026 Guide** on [DevStack Bangla](https://www.youtube.com/@devstackbangla). Watch it: https://youtu.be/9nSyX7AyogQ
 
 Will AI replace software engineers? Is AI taking junior developer jobs? Real 2026 data and a hands-on Node.js demo, explained in Bangla with English subtitles.
 
