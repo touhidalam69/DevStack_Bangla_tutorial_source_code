@@ -1,0 +1,51 @@
+name: Build
+
+# Builds every video's project, so the code in this repository is known to compile and pass its tests.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  folders:
+    name: Find the video folders
+    runs-on: ubuntu-latest
+    outputs:
+      list: ${{ steps.list.outputs.list }}
+    steps:
+      - uses: actions/checkout@v7
+      - id: list
+        run: echo "list=$(ls -d src/*/ | sed 's:/$::' | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+
+  build:
+    name: ${{ matrix.folder }}
+    needs: folders
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: ${{ fromJson(needs.folders.outputs.list) }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Set up .NET
+        if: hashFiles(format('{0}/**/*.csproj', matrix.folder)) != ''
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 10.0.x
+      - name: Set up Node.js
+        if: hashFiles(format('{0}/**/package.json', matrix.folder), format('{0}/**/*.js', matrix.folder), format('{0}/**/*.mjs', matrix.folder)) != ''
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Build and test
+        env:
+          FOLDER: ${{ matrix.folder }}
+        run: bash .github/scripts/build-folder.sh "$FOLDER"

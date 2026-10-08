@@ -1,0 +1,16 @@
+name: Question or suggestion
+description: Ask about the code from a video, suggest a fix, or suggest a topic for a video.
+labels: [question]
+body:
+  - type: input
+    id: folder
+    attributes:
+      label: Video folder (if it is about one)
+      placeholder: src/so-survey-2026
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question or suggestion
+      description: Bangla or English.
+    validations:
+      required: true

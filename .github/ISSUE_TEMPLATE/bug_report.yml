@@ -1,0 +1,46 @@
+name: The code does not run
+description: A project from a video does not build, run or give the result the video shows.
+labels: [bug]
+body:
+  - type: input
+    id: folder
+    attributes:
+      label: Video folder
+      description: The folder in src/.
+      placeholder: src/jobtrack-ep03-minimal-api
+    validations:
+      required: true
+  - type: textarea
+    id: commands
+    attributes:
+      label: What did you run?
+      description: The commands, in order.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What happened?
+      description: The full error message or output, as text if you can.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: For example, what the video shows, with its time stamp.
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Windows 11, macOS 15, Ubuntu 24.04
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions
+      description: The output of `dotnet --version` or `node --version`, whichever the project uses.
+      render: text

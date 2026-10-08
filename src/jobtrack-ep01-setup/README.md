@@ -1,12 +1,17 @@
-<!-- Written by tutorial-factory (npm run render). Change the video's demo/README.md or script.json instead. -->
+<!-- Written by tutorial-factory (npm run render) from the video's demo/ and script.json; changes made here are overwritten. -->
 
 # ASP.NET Core Web API with Angular | Full Stack Project Ep 1: Setup and CORS
 
-Source code for the video **ASP.NET Core Web API with Angular Bangla Tutorial | Full Stack Ep 1** on [DevStack Bangla](https://www.youtube.com/@devstackbangla).
+[![Coming soon on YouTube](https://img.shields.io/badge/YouTube-coming%20soon-lightgrey?logo=youtube&logoColor=white)](https://www.youtube.com/@devstackbangla) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/jobtrack-ep01-setup/source.zip) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white) ![Angular 22](https://img.shields.io/badge/Angular-22-DD0031?logo=angular&logoColor=white)
+
+> Source code for **ASP.NET Core Web API with Angular Bangla Tutorial | Full Stack Ep 1** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
+
+[All videos](../../README.md#videos) · [Ep 2: Entity Framework Core Tutorial: SQL Server CRUD →](../jobtrack-ep02-efcore)
 
 ASP.NET Core Web API with Angular: a full stack project from scratch, explained in Bangla. In episode 1 we build a .NET 10 Web API and an Angular 22 app, make the first API call, and find the real cause of the CORS error and its fix.
 
-**What you will learn**
+## What you will learn
+
 - The JobTrack series plan and architecture
 - .NET 10 SDK and Node.js 24 LTS: which versions and why
 - dotnet new sln (.slnx), dotnet new webapi, the order of Program.cs
@@ -14,46 +19,6 @@ ASP.NET Core Web API with Angular: a full stack project from scratch, explained 
 - Angular 22: ng new flags, HttpClient without provideHttpClient, signals, @if and @for
 - The CORS error: what an origin is, the same-origin policy, proof with curl
 - AddCors, WithOrigins, UseCors, preflight, and why not AllowAnyOrigin
-
-- Download: click [source.zip](source.zip) (32 files), then "Download raw file", and unzip it.
-- Playlists: ASP.NET Core Web API + Angular Full Stack Project | Bangla; .NET & C# Tutorial | Bangla (ASP.NET Core, EF Core); Angular Tutorial Bangla (Angular 22 Signals, Forms)
-
-## Files in source.zip
-
-```
-jobtrack-ep01-setup/jobtrack-web/.editorconfig
-jobtrack-ep01-setup/jobtrack-web/.gitignore
-jobtrack-ep01-setup/jobtrack-web/.prettierrc
-jobtrack-ep01-setup/jobtrack-web/.vscode/extensions.json
-jobtrack-ep01-setup/jobtrack-web/.vscode/launch.json
-jobtrack-ep01-setup/jobtrack-web/.vscode/tasks.json
-jobtrack-ep01-setup/jobtrack-web/angular.json
-jobtrack-ep01-setup/jobtrack-web/package-lock.json
-jobtrack-ep01-setup/jobtrack-web/package.json
-jobtrack-ep01-setup/jobtrack-web/public/favicon.ico
-jobtrack-ep01-setup/jobtrack-web/README.md
-jobtrack-ep01-setup/jobtrack-web/src/app/app.config.ts
-jobtrack-ep01-setup/jobtrack-web/src/app/app.css
-jobtrack-ep01-setup/jobtrack-web/src/app/app.html
-jobtrack-ep01-setup/jobtrack-web/src/app/app.routes.ts
-jobtrack-ep01-setup/jobtrack-web/src/app/app.spec.ts
-jobtrack-ep01-setup/jobtrack-web/src/app/app.ts
-jobtrack-ep01-setup/jobtrack-web/src/app/job.ts
-jobtrack-ep01-setup/jobtrack-web/src/index.html
-jobtrack-ep01-setup/jobtrack-web/src/main.ts
-jobtrack-ep01-setup/jobtrack-web/src/styles.css
-jobtrack-ep01-setup/jobtrack-web/tsconfig.app.json
-jobtrack-ep01-setup/jobtrack-web/tsconfig.json
-jobtrack-ep01-setup/jobtrack-web/tsconfig.spec.json
-jobtrack-ep01-setup/JobTrack.Api/appsettings.Development.json
-jobtrack-ep01-setup/JobTrack.Api/appsettings.json
-jobtrack-ep01-setup/JobTrack.Api/JobTrack.Api.csproj
-jobtrack-ep01-setup/JobTrack.Api/JobTrack.Api.http
-jobtrack-ep01-setup/JobTrack.Api/Program.cs
-jobtrack-ep01-setup/JobTrack.Api/Properties/launchSettings.json
-jobtrack-ep01-setup/JobTrack.slnx
-jobtrack-ep01-setup/README.md
-```
 
 ## JobTrack, Episode 1: Setup
 
@@ -84,3 +49,40 @@ Open http://localhost:4200. If your API port is different, change it in `jobtrac
 ### CORS
 
 The API allows only `http://localhost:4200` (`AddCors` + `UseCors("AngularDev")` in `Program.cs`).
+
+## Project structure
+
+Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/jobtrack-ep01-setup/source.zip) (32 files).
+
+```
+jobtrack-ep01-setup/
+├── jobtrack-web/
+│   ├── .vscode/ (3 files)
+│   ├── public/ (1 file)
+│   ├── src/ (10 files)
+│   ├── .editorconfig
+│   ├── .gitignore
+│   ├── .prettierrc
+│   ├── angular.json
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   └── tsconfig.spec.json
+├── JobTrack.Api/
+│   ├── Properties/ (1 file)
+│   ├── appsettings.Development.json
+│   ├── appsettings.json
+│   ├── JobTrack.Api.csproj
+│   ├── JobTrack.Api.http
+│   └── Program.cs
+├── JobTrack.slnx
+└── README.md
+```
+
+## Questions
+
+Ask in the comments of the video, in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
+
+More in the playlists on [DevStack Bangla](https://www.youtube.com/@devstackbangla): ASP.NET Core Web API + Angular Full Stack Project | Bangla; .NET & C# Tutorial | Bangla (ASP.NET Core, EF Core); Angular Tutorial Bangla (Angular 22 Signals, Forms).

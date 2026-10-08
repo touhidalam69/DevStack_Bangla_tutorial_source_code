@@ -1,12 +1,17 @@
-<!-- Written by tutorial-factory (npm run render). Change the video's demo/README.md or script.json instead. -->
+<!-- Written by tutorial-factory (npm run render) from the video's demo/ and script.json; changes made here are overwritten. -->
 
 # Entity Framework Core Tutorial: SQL Server CRUD | Full Stack Ep 2 (Bangla)
 
-Source code for the video **Entity Framework Core Tutorial Bangla: SQL Server CRUD | Ep 2** on [DevStack Bangla](https://www.youtube.com/@devstackbangla).
+[![Coming soon on YouTube](https://img.shields.io/badge/YouTube-coming%20soon-lightgrey?logo=youtube&logoColor=white)](https://www.youtube.com/@devstackbangla) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/jobtrack-ep02-efcore/source.zip) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white) ![EF Core 10](https://img.shields.io/badge/EF%20Core-10-512BD4?logo=dotnet&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927) ![Angular 22](https://img.shields.io/badge/Angular-22-DD0031?logo=angular&logoColor=white)
+
+> Source code for **Entity Framework Core Tutorial Bangla: SQL Server CRUD | Ep 2** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
+
+[← Ep 1: ASP.NET Core Web API with Angular](../jobtrack-ep01-setup) · [All videos](../../README.md#videos) · [Ep 3: Minimal API vs Controller: Validation and ProblemDetails →](../jobtrack-ep03-minimal-api)
 
 Entity Framework Core tutorial in Bangla: full CRUD for an ASP.NET Core Web API on SQL Server with EF Core 10 Code First, migrations, and a real AsNoTracking update bug.
 
-**What you will learn**
+## What you will learn
+
 - What Code First is, and how EF Core creates tables from C# classes
 - EF Core 10 and LocalDB setup, dotnet package add, the dotnet-ef local tool
 - The model, DbContext, MaxLength, the connection string
@@ -15,55 +20,6 @@ Entity Framework Core tutorial in Bangla: full CRUD for an ASP.NET Core Web API 
 - A second migration for a new column
 - MapGroup, FirstOrDefaultAsync, Results.Created, ExecuteDeleteAsync
 - Tracking vs AsNoTracking, and updating with FindAsync
-
-- Download: click [source.zip](source.zip) (41 files), then "Download raw file", and unzip it.
-- Playlists: ASP.NET Core Web API + Angular Full Stack Project | Bangla; .NET & C# Tutorial | Bangla (ASP.NET Core, EF Core); SQL Server & PostgreSQL Tutorial | Bangla
-
-## Files in source.zip
-
-```
-jobtrack-ep02-efcore/dotnet-tools.json
-jobtrack-ep02-efcore/jobtrack-web/.editorconfig
-jobtrack-ep02-efcore/jobtrack-web/.gitignore
-jobtrack-ep02-efcore/jobtrack-web/.prettierrc
-jobtrack-ep02-efcore/jobtrack-web/.vscode/extensions.json
-jobtrack-ep02-efcore/jobtrack-web/.vscode/launch.json
-jobtrack-ep02-efcore/jobtrack-web/.vscode/tasks.json
-jobtrack-ep02-efcore/jobtrack-web/angular.json
-jobtrack-ep02-efcore/jobtrack-web/package-lock.json
-jobtrack-ep02-efcore/jobtrack-web/package.json
-jobtrack-ep02-efcore/jobtrack-web/public/favicon.ico
-jobtrack-ep02-efcore/jobtrack-web/README.md
-jobtrack-ep02-efcore/jobtrack-web/src/app/app.config.ts
-jobtrack-ep02-efcore/jobtrack-web/src/app/app.css
-jobtrack-ep02-efcore/jobtrack-web/src/app/app.html
-jobtrack-ep02-efcore/jobtrack-web/src/app/app.routes.ts
-jobtrack-ep02-efcore/jobtrack-web/src/app/app.spec.ts
-jobtrack-ep02-efcore/jobtrack-web/src/app/app.ts
-jobtrack-ep02-efcore/jobtrack-web/src/app/job.ts
-jobtrack-ep02-efcore/jobtrack-web/src/index.html
-jobtrack-ep02-efcore/jobtrack-web/src/main.ts
-jobtrack-ep02-efcore/jobtrack-web/src/styles.css
-jobtrack-ep02-efcore/jobtrack-web/tsconfig.app.json
-jobtrack-ep02-efcore/jobtrack-web/tsconfig.json
-jobtrack-ep02-efcore/jobtrack-web/tsconfig.spec.json
-jobtrack-ep02-efcore/JobTrack.Api/appsettings.Development.json
-jobtrack-ep02-efcore/JobTrack.Api/appsettings.json
-jobtrack-ep02-efcore/JobTrack.Api/Data/JobApplication.cs
-jobtrack-ep02-efcore/JobTrack.Api/Data/JobTrackDb.cs
-jobtrack-ep02-efcore/JobTrack.Api/Data/SeedData.cs
-jobtrack-ep02-efcore/JobTrack.Api/JobTrack.Api.csproj
-jobtrack-ep02-efcore/JobTrack.Api/JobTrack.Api.http
-jobtrack-ep02-efcore/JobTrack.Api/Migrations/20261008010654_InitialCreate.cs
-jobtrack-ep02-efcore/JobTrack.Api/Migrations/20261008010654_InitialCreate.Designer.cs
-jobtrack-ep02-efcore/JobTrack.Api/Migrations/20261008010814_AddAppliedOn.cs
-jobtrack-ep02-efcore/JobTrack.Api/Migrations/20261008010814_AddAppliedOn.Designer.cs
-jobtrack-ep02-efcore/JobTrack.Api/Migrations/JobTrackDbModelSnapshot.cs
-jobtrack-ep02-efcore/JobTrack.Api/Program.cs
-jobtrack-ep02-efcore/JobTrack.Api/Properties/launchSettings.json
-jobtrack-ep02-efcore/JobTrack.slnx
-jobtrack-ep02-efcore/README.md
-```
 
 ## JobTrack, Episode 2: Entity Framework Core 10 + SQL Server
 
@@ -129,3 +85,43 @@ npx ng serve
 ```
 
 Open http://localhost:4200. The page is the same as in episode 1; the data now comes from SQL Server.
+
+## Project structure
+
+Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/jobtrack-ep02-efcore/source.zip) (41 files).
+
+```
+jobtrack-ep02-efcore/
+├── jobtrack-web/
+│   ├── .vscode/ (3 files)
+│   ├── public/ (1 file)
+│   ├── src/ (10 files)
+│   ├── .editorconfig
+│   ├── .gitignore
+│   ├── .prettierrc
+│   ├── angular.json
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   └── tsconfig.spec.json
+├── JobTrack.Api/
+│   ├── Data/ (3 files)
+│   ├── Migrations/ (5 files)
+│   ├── Properties/ (1 file)
+│   ├── appsettings.Development.json
+│   ├── appsettings.json
+│   ├── JobTrack.Api.csproj
+│   ├── JobTrack.Api.http
+│   └── Program.cs
+├── dotnet-tools.json
+├── JobTrack.slnx
+└── README.md
+```
+
+## Questions
+
+Ask in the comments of the video, in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
+
+More in the playlists on [DevStack Bangla](https://www.youtube.com/@devstackbangla): ASP.NET Core Web API + Angular Full Stack Project | Bangla; .NET & C# Tutorial | Bangla (ASP.NET Core, EF Core); SQL Server & PostgreSQL Tutorial | Bangla.

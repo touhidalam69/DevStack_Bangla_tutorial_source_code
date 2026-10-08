@@ -1,0 +1,29 @@
+@JobTrack.Api_HostAddress = http://localhost:5032
+
+GET {{JobTrack.Api_HostAddress}}/api/jobs
+Accept: application/json
+
+###
+
+GET {{JobTrack.Api_HostAddress}}/api/jobs/2
+Accept: application/json
+
+###
+
+POST {{JobTrack.Api_HostAddress}}/api/jobs
+Content-Type: application/json
+
+{"company":"Litware","role":"Intern","status":"Applied","appliedOn":"2026-10-08"}
+
+###
+
+PUT {{JobTrack.Api_HostAddress}}/api/jobs/1
+Content-Type: application/json
+
+{"company":"Contoso","role":"Junior .NET Developer","status":"Rejected"}
+
+###
+
+DELETE {{JobTrack.Api_HostAddress}}/api/jobs/5
+
+###

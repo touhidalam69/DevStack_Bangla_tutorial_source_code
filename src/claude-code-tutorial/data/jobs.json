@@ -1,0 +1,7 @@
+[
+  { "company": "Contoso", "role": "Junior .NET Developer", "status": "Applied", "appliedOn": "2026-09-24" },
+  { "company": "Fabrikam", "role": "Angular Developer", "status": "Interview", "appliedOn": "2026-09-28" },
+  { "company": "Northwind", "role": "Full Stack Intern", "status": "Offer", "appliedOn": "2026-09-15" },
+  { "company": "Litware", "role": "Intern", "status": "Applied", "appliedOn": "2026-10-01" },
+  { "company": "Tailspin", "role": "Backend Developer", "status": "Applied", "appliedOn": "2026-10-06" }
+]

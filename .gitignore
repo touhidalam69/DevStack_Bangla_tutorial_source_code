@@ -1,0 +1,17 @@
+# Build output and installed packages, for anyone who builds a project inside this clone
+bin/
+obj/
+node_modules/
+.angular/
+dist/
+coverage/
+
+# Editors and operating systems
+.vs/
+*.user
+.DS_Store
+Thumbs.db
+
+# Local settings and logs
+.env
+*.log

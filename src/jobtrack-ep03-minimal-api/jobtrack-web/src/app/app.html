@@ -1,0 +1,19 @@
+<main>
+  <h1>JobTrack</h1>
+  <p class="sub">My job applications</p>
+
+  @if (error()) {
+    <p class="error">{{ error() }}</p>
+  }
+
+  <ul>
+    @for (job of jobs(); track job.id) {
+      <li>
+        <strong>{{ job.company }}</strong> {{ job.role }}
+        <span class="status">{{ job.status }}</span>
+      </li>
+    } @empty {
+      <li class="empty">No jobs yet</li>
+    }
+  </ul>
+</main>

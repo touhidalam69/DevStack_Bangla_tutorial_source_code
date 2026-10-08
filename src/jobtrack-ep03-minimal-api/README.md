@@ -1,12 +1,17 @@
-<!-- Written by tutorial-factory (npm run render). Change the video's demo/README.md or script.json instead. -->
+<!-- Written by tutorial-factory (npm run render) from the video's demo/ and script.json; changes made here are overwritten. -->
 
 # Minimal API vs Controller: Validation and ProblemDetails | ASP.NET Core Ep 3 (Bangla)
 
-Source code for the video **Minimal API vs Controller Bangla: Validation আর ProblemDetails | Ep 3** on [DevStack Bangla](https://www.youtube.com/@devstackbangla).
+[![Coming soon on YouTube](https://img.shields.io/badge/YouTube-coming%20soon-lightgrey?logo=youtube&logoColor=white)](https://www.youtube.com/@devstackbangla) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/jobtrack-ep03-minimal-api/source.zip) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white) ![EF Core 10](https://img.shields.io/badge/EF%20Core-10-512BD4?logo=dotnet&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927) ![Angular 22](https://img.shields.io/badge/Angular-22-DD0031?logo=angular&logoColor=white)
+
+> Source code for **Minimal API vs Controller Bangla: Validation আর ProblemDetails | Ep 3** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
+
+[← Ep 2: Entity Framework Core Tutorial: SQL Server CRUD](../jobtrack-ep02-efcore) · [All videos](../../README.md#videos)
 
 Minimal API vs Controller in Bangla: the same ASP.NET Core Web API written both ways, the built-in validation in .NET 10, global exception handling with ProblemDetails, and API docs with Scalar.
 
-**What you will learn**
+## What you will learn
+
 - 4xx vs 5xx status codes, and why bad input should not be a 500
 - ProblemDetails (RFC 9457), AddProblemDetails, UseExceptionHandler, UseStatusCodePages
 - Minimal API vs Controller: the same JobsController, [ApiController], CreatedAtAction, MapControllers
@@ -14,57 +19,6 @@ Minimal API vs Controller in Bangla: the same ASP.NET Core Web API written both 
 - .NET 10 Minimal API validation: AddValidation, Required, AllowedValues, your own error message
 - Checking for database changes with dotnet ef migrations has-pending-model-changes
 - OpenAPI docs with Scalar, TypedResults and ProducesValidationProblem
-
-- Download: click [source.zip](source.zip) (43 files), then "Download raw file", and unzip it.
-- Playlists: ASP.NET Core Web API + Angular Full Stack Project | Bangla; .NET & C# Tutorial | Bangla (ASP.NET Core, EF Core)
-
-## Files in source.zip
-
-```
-jobtrack-ep03-minimal-api/controller-version/JobsController.cs
-jobtrack-ep03-minimal-api/controller-version/Program.cs
-jobtrack-ep03-minimal-api/dotnet-tools.json
-jobtrack-ep03-minimal-api/jobtrack-web/.editorconfig
-jobtrack-ep03-minimal-api/jobtrack-web/.gitignore
-jobtrack-ep03-minimal-api/jobtrack-web/.prettierrc
-jobtrack-ep03-minimal-api/jobtrack-web/.vscode/extensions.json
-jobtrack-ep03-minimal-api/jobtrack-web/.vscode/launch.json
-jobtrack-ep03-minimal-api/jobtrack-web/.vscode/tasks.json
-jobtrack-ep03-minimal-api/jobtrack-web/angular.json
-jobtrack-ep03-minimal-api/jobtrack-web/package-lock.json
-jobtrack-ep03-minimal-api/jobtrack-web/package.json
-jobtrack-ep03-minimal-api/jobtrack-web/public/favicon.ico
-jobtrack-ep03-minimal-api/jobtrack-web/README.md
-jobtrack-ep03-minimal-api/jobtrack-web/src/app/app.config.ts
-jobtrack-ep03-minimal-api/jobtrack-web/src/app/app.css
-jobtrack-ep03-minimal-api/jobtrack-web/src/app/app.html
-jobtrack-ep03-minimal-api/jobtrack-web/src/app/app.routes.ts
-jobtrack-ep03-minimal-api/jobtrack-web/src/app/app.spec.ts
-jobtrack-ep03-minimal-api/jobtrack-web/src/app/app.ts
-jobtrack-ep03-minimal-api/jobtrack-web/src/app/job.ts
-jobtrack-ep03-minimal-api/jobtrack-web/src/index.html
-jobtrack-ep03-minimal-api/jobtrack-web/src/main.ts
-jobtrack-ep03-minimal-api/jobtrack-web/src/styles.css
-jobtrack-ep03-minimal-api/jobtrack-web/tsconfig.app.json
-jobtrack-ep03-minimal-api/jobtrack-web/tsconfig.json
-jobtrack-ep03-minimal-api/jobtrack-web/tsconfig.spec.json
-jobtrack-ep03-minimal-api/JobTrack.Api/appsettings.Development.json
-jobtrack-ep03-minimal-api/JobTrack.Api/appsettings.json
-jobtrack-ep03-minimal-api/JobTrack.Api/Data/JobApplication.cs
-jobtrack-ep03-minimal-api/JobTrack.Api/Data/JobTrackDb.cs
-jobtrack-ep03-minimal-api/JobTrack.Api/Data/SeedData.cs
-jobtrack-ep03-minimal-api/JobTrack.Api/JobTrack.Api.csproj
-jobtrack-ep03-minimal-api/JobTrack.Api/JobTrack.Api.http
-jobtrack-ep03-minimal-api/JobTrack.Api/Migrations/20261008010654_InitialCreate.cs
-jobtrack-ep03-minimal-api/JobTrack.Api/Migrations/20261008010654_InitialCreate.Designer.cs
-jobtrack-ep03-minimal-api/JobTrack.Api/Migrations/20261008010814_AddAppliedOn.cs
-jobtrack-ep03-minimal-api/JobTrack.Api/Migrations/20261008010814_AddAppliedOn.Designer.cs
-jobtrack-ep03-minimal-api/JobTrack.Api/Migrations/JobTrackDbModelSnapshot.cs
-jobtrack-ep03-minimal-api/JobTrack.Api/Program.cs
-jobtrack-ep03-minimal-api/JobTrack.Api/Properties/launchSettings.json
-jobtrack-ep03-minimal-api/JobTrack.slnx
-jobtrack-ep03-minimal-api/README.md
-```
 
 ## JobTrack, Episode 3: Minimal API vs Controller, Validation and ProblemDetails
 
@@ -127,3 +81,46 @@ npx ng serve
 ```
 
 Open http://localhost:4200. The Angular app does not change in this episode.
+
+## Project structure
+
+Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/jobtrack-ep03-minimal-api/source.zip) (43 files).
+
+```
+jobtrack-ep03-minimal-api/
+├── controller-version/
+│   ├── JobsController.cs
+│   └── Program.cs
+├── jobtrack-web/
+│   ├── .vscode/ (3 files)
+│   ├── public/ (1 file)
+│   ├── src/ (10 files)
+│   ├── .editorconfig
+│   ├── .gitignore
+│   ├── .prettierrc
+│   ├── angular.json
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   └── tsconfig.spec.json
+├── JobTrack.Api/
+│   ├── Data/ (3 files)
+│   ├── Migrations/ (5 files)
+│   ├── Properties/ (1 file)
+│   ├── appsettings.Development.json
+│   ├── appsettings.json
+│   ├── JobTrack.Api.csproj
+│   ├── JobTrack.Api.http
+│   └── Program.cs
+├── dotnet-tools.json
+├── JobTrack.slnx
+└── README.md
+```
+
+## Questions
+
+Ask in the comments of the video, in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
+
+More in the playlists on [DevStack Bangla](https://www.youtube.com/@devstackbangla): ASP.NET Core Web API + Angular Full Stack Project | Bangla; .NET & C# Tutorial | Bangla (ASP.NET Core, EF Core).
