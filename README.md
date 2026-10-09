@@ -24,6 +24,7 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 5 | [Entity Framework Core Tutorial: SQL Server CRUD \| Full Stack Ep 2 (Bangla)](src/jobtrack-ep02-efcore) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
 | 6 | [MCP Server Tutorial: Build Your Own MCP Server in C# (.NET 10)](src/mcp-server-csharp) | .NET 10 | Coming soon |
 | 8 | [Minimal API vs Controller: Validation and ProblemDetails \| ASP.NET Core Ep 3 (Bangla)](src/jobtrack-ep03-minimal-api) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
+|  | [SQL Interview Questions and Answers: JOIN, NULL, GROUP BY, Window Functions (2026)](src/sql-interview-questions) |  | Coming soon |
 <!-- videos:end -->
 
 ## Get the code

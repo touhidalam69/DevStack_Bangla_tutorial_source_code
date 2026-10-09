@@ -61,7 +61,7 @@ key; see the Microsoft Learn quickstart "Create a minimal MCP server".
 
 ## Project structure
 
-Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/mcp-server-csharp/source.zip) (9 files).
+Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/mcp-server-csharp/source.zip) (10 files).
 
 ```
 mcp-server-csharp/
@@ -74,7 +74,8 @@ mcp-server-csharp/
 │   ├── Program.cs
 │   └── README.md
 ├── .mcp.json
-└── JobTrackMcp.slnx
+├── JobTrackMcp.slnx
+└── README.md
 ```
 
 ## Questions
