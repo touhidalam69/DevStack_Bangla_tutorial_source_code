@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="After/After.csproj" />
+  <Project Path="Before/Before.csproj" />
+</Solution>
