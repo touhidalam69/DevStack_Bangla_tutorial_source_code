@@ -20,7 +20,9 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 1 | [Stack Overflow Survey 2026: 10 Findings for Developers (in Bangla)](src/so-survey-2026) | Node.js | Coming soon |
 | 2 | [ASP.NET Core Web API with Angular \| Full Stack Project Ep 1: Setup and CORS](src/jobtrack-ep01-setup) | .NET 10, Angular 22 | Coming soon |
 | 3 | [Claude Code Tutorial (Bangla): The Agent Said Done, My Test Said Fail](src/claude-code-tutorial) | Node.js | Coming soon |
+| 4 | [C# Interview Questions and Answers: 10 Guess-the-Output Questions (2026)](src/csharp-interview-questions) | .NET 10 | Coming soon |
 | 5 | [Entity Framework Core Tutorial: SQL Server CRUD \| Full Stack Ep 2 (Bangla)](src/jobtrack-ep02-efcore) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
+| 6 | [MCP Server Tutorial: Build Your Own MCP Server in C# (.NET 10)](src/mcp-server-csharp) | .NET 10 | Coming soon |
 | 8 | [Minimal API vs Controller: Validation and ProblemDetails \| ASP.NET Core Ep 3 (Bangla)](src/jobtrack-ep03-minimal-api) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
 <!-- videos:end -->
 
