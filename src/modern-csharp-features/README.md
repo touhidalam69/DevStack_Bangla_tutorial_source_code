@@ -64,7 +64,7 @@ dotnet run q1-equality.cs
 
 ## Project structure
 
-Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/modern-csharp-features/source.zip) (22 files).
+Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/modern-csharp-features/source.zip) (23 files).
 
 ```
 modern-csharp-features/
@@ -92,7 +92,8 @@ modern-csharp-features/
 │   ├── q2-if.cs
 │   ├── q2-order.cs
 │   └── q3-counter.cs
-└── ModernCSharp.slnx
+├── ModernCSharp.slnx
+└── README.md
 ```
 
 ## Questions

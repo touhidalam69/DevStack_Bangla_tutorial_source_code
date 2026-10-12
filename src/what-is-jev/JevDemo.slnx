@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="JevStub/JevStub.csproj" />
+  <Project Path="TicketRouter/TicketRouter.csproj" />
+</Solution>
