@@ -27,6 +27,7 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 8 | [Minimal API vs Controller: Validation and ProblemDetails \| ASP.NET Core Ep 3 (Bangla)](src/jobtrack-ep03-minimal-api) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
 | 10 | [C# New Features: Records, Pattern Matching, Primary Constructors and C# 14 (old code vs modern)](src/modern-csharp-features) | .NET 10 | Coming soon |
 | 11 | [Angular Signals Tutorial: httpResource and computed \| Full Stack Ep 4 (Bangla)](src/jobtrack-ep04-signals) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
+| 13 | [Angular Interview Questions and Answers 2026: Signals, effect, OnPush (Angular 22)](src/angular-interview-questions) | Angular 22 | Coming soon |
 |  | [What is Jev? TypeSafe's AI Model That Gives Decisions, Not Text (C# Demo)](src/what-is-jev) | .NET 10 | Coming soon |
 <!-- videos:end -->
 
