@@ -1,0 +1,53 @@
+@JobTrack.Api_HostAddress = http://localhost:5032
+
+GET {{JobTrack.Api_HostAddress}}/api/jobs
+Accept: application/json
+
+###
+
+GET {{JobTrack.Api_HostAddress}}/api/jobs/2
+Accept: application/json
+
+###
+
+POST {{JobTrack.Api_HostAddress}}/api/jobs
+Content-Type: application/json
+
+{"company":"Litware","role":"Intern","status":"Applied","appliedOn":"2026-10-08"}
+
+###
+
+PUT {{JobTrack.Api_HostAddress}}/api/jobs/1
+Content-Type: application/json
+
+{"company":"Contoso","role":"Junior .NET Developer","status":"Rejected"}
+
+###
+
+DELETE {{JobTrack.Api_HostAddress}}/api/jobs/5
+
+###
+
+# Episode 3: bad input gets a 400 with ProblemDetails
+
+# Company is required, Status is not an allowed value
+POST {{JobTrack.Api_HostAddress}}/api/jobs
+Content-Type: application/json
+
+{"company":"","role":"Intern","status":"Banana"}
+
+###
+
+# Status is longer than 20 characters
+POST {{JobTrack.Api_HostAddress}}/api/jobs
+Content-Type: application/json
+
+{"company":"Tailspin","role":"QA","status":"Waiting for HR to reply"}
+
+###
+
+# 404 as ProblemDetails
+GET {{JobTrack.Api_HostAddress}}/api/jobs/99
+Accept: application/json
+
+###

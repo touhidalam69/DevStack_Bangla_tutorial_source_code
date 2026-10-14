@@ -1,0 +1,68 @@
+main {
+  max-width: 720px;
+  margin: 40px auto;
+  font-family: system-ui, sans-serif;
+}
+h1 { margin: 0; font-size: 40px; }
+.sub { color: #64748b; margin: 4px 0 20px; }
+.filters { display: flex; gap: 8px; margin-bottom: 16px; }
+.filters button {
+  font: inherit;
+  font-size: 15px;
+  padding: 6px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: white;
+  cursor: pointer;
+}
+.filters button span { color: #64748b; margin-left: 4px; }
+.filters button.active { background: #0f172a; border-color: #0f172a; color: white; }
+.filters button.active span { color: #cbd5e1; }
+.error {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+ul { list-style: none; padding: 0; }
+li {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 14px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.status {
+  margin-left: auto;
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+.empty { color: #94a3b8; }
+.info { color: #64748b; font-size: 18px; }
+.error button {
+  font: inherit;
+  margin-left: 8px;
+  padding: 4px 12px;
+  border: 1px solid #b91c1c;
+  border-radius: 6px;
+  background: white;
+  color: #b91c1c;
+  cursor: pointer;
+}
+.remove {
+  font: inherit;
+  font-size: 14px;
+  padding: 4px 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  background: white;
+  color: #64748b;
+  cursor: pointer;
+}
+.remove:hover { border-color: #b91c1c; color: #b91c1c; }

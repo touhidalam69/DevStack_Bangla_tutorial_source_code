@@ -6,7 +6,7 @@
 
 > Source code for **Minimal API vs Controller Bangla: Validation আর ProblemDetails | Ep 3** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
 
-[← Ep 2: Entity Framework Core Tutorial: SQL Server CRUD](../jobtrack-ep02-efcore) · [All videos](../../README.md#videos)
+[← Ep 2: Entity Framework Core Tutorial: SQL Server CRUD](../jobtrack-ep02-efcore) · [All videos](../../README.md#videos) · [Ep 4: Angular Signals Tutorial: httpResource and computed →](../jobtrack-ep04-signals)
 
 Minimal API vs Controller in Bangla: the same ASP.NET Core Web API written both ways, the built-in validation in .NET 10, global exception handling with ProblemDetails, and API docs with Scalar.
 
