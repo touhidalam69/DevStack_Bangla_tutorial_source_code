@@ -19,16 +19,16 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 0 | [Will AI Replace Software Engineers? A 2026 Guide for Junior Developers](src/ai-junior-dev-careers) | Node.js | [▶ Watch](https://youtu.be/9nSyX7AyogQ) |
 | 1 | [Stack Overflow Survey 2026: 10 Findings for Developers (in Bangla)](src/so-survey-2026) | Node.js | [▶ Watch](https://youtu.be/9v4gMdykHRw) |
 | 2 | [ASP.NET Core Web API with Angular \| Full Stack Project Ep 1: Setup and CORS](src/jobtrack-ep01-setup) | .NET 10, Angular 22 | [▶ Watch](https://youtu.be/wXPklBwHas4) |
-| 3 | [Claude Code Tutorial (Bangla): The Agent Said Done, My Test Said Fail](src/claude-code-tutorial) | Node.js | Coming soon |
-| 4 | [C# Interview Questions and Answers: 10 Guess-the-Output Questions (2026)](src/csharp-interview-questions) | .NET 10 | Coming soon |
-| 5 | [Entity Framework Core Tutorial: SQL Server CRUD \| Full Stack Ep 2 (Bangla)](src/jobtrack-ep02-efcore) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
-| 6 | [MCP Server Tutorial: Build Your Own MCP Server in C# (.NET 10)](src/mcp-server-csharp) | .NET 10 | Coming soon |
-| 7 | [SQL Interview Questions and Answers: JOIN, NULL, GROUP BY, Window Functions (2026)](src/sql-interview-questions) |  | Coming soon |
+| 3 | [Claude Code Tutorial (Bangla): The Agent Said Done, My Test Said Fail](src/claude-code-tutorial) | Node.js | [▶ Watch](https://youtu.be/2JsvS2Yzs4w) |
+| 4 | [C# Interview Questions and Answers: 10 Guess-the-Output Questions (2026)](src/csharp-interview-questions) | .NET 10 | [▶ Watch](https://youtu.be/StzFMSRX0Ig) |
+| 5 | [Entity Framework Core Tutorial: SQL Server CRUD \| Full Stack Ep 2 (Bangla)](src/jobtrack-ep02-efcore) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/KKFa-bnTiJI) |
+| 6 | [MCP Server Tutorial: Build Your Own MCP Server in C# (.NET 10)](src/mcp-server-csharp) | .NET 10 | [▶ Watch](https://youtu.be/R6f5vxK1Bm8) |
+| 7 | [SQL Interview Questions and Answers: JOIN, NULL, GROUP BY, Window Functions (2026)](src/sql-interview-questions) |  | [▶ Watch](https://youtu.be/ElMlJG1oY8I) |
 | 8 | [Minimal API vs Controller: Validation and ProblemDetails \| ASP.NET Core Ep 3 (Bangla)](src/jobtrack-ep03-minimal-api) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
 | 10 | [C# New Features: Records, Pattern Matching, Primary Constructors and C# 14 (old code vs modern)](src/modern-csharp-features) | .NET 10 | Coming soon |
 | 11 | [Angular Signals Tutorial: httpResource and computed \| Full Stack Ep 4 (Bangla)](src/jobtrack-ep04-signals) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
 | 13 | [Angular Interview Questions and Answers 2026: Signals, effect, OnPush (Angular 22)](src/angular-interview-questions) | Angular 22 | Coming soon |
-|  | [What is Jev? TypeSafe's AI Model That Gives Decisions, Not Text (C# Demo)](src/what-is-jev) | .NET 10 | Coming soon |
+|  | [What is Jev? TypeSafe's AI Model That Gives Decisions, Not Text (C# Demo)](src/what-is-jev) | .NET 10 | [▶ Watch](https://youtu.be/3H4fZ-bM6IU) |
 <!-- videos:end -->
 
 ## Get the code

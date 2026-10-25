@@ -2,7 +2,7 @@
 
 # C# Interview Questions and Answers: 10 Guess-the-Output Questions (2026)
 
-[![Coming soon on YouTube](https://img.shields.io/badge/YouTube-coming%20soon-lightgrey?logo=youtube&logoColor=white)](https://www.youtube.com/@devstackbangla) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/csharp-interview-questions/source.zip) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white)
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-FF0000?logo=youtube&logoColor=white)](https://youtu.be/StzFMSRX0Ig) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/csharp-interview-questions/source.zip) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white)
 
 > Source code for **C# Interview Questions and Answers বাংলায়: ১০টা Output প্রশ্ন (2026)** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
 
@@ -61,6 +61,6 @@ csharp-interview-questions/
 
 ## Questions
 
-Ask in the comments of the video, in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
+Ask in the comments of [the video](https://youtu.be/StzFMSRX0Ig), in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
 
 More in the playlists on [DevStack Bangla](https://www.youtube.com/@devstackbangla): Interview Questions Bangla (C#, Angular, SQL, JavaScript); .NET & C# Tutorial | Bangla (ASP.NET Core, EF Core).

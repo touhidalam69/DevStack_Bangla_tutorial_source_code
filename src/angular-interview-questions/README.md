@@ -67,25 +67,26 @@ with `NG8118: name is a required input and does not have a value in this context
 
 ## Project structure
 
-Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/angular-interview-questions/source.zip) (38 files).
+Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/angular-interview-questions/source.zip) (39 files).
 
 ```
 angular-interview-questions/
-└── angular-interview/
-    ├── .vscode/ (3 files)
-    ├── public/ (1 file)
-    ├── src/ (20 files)
-    ├── try/ (4 files)
-    ├── .editorconfig
-    ├── .gitignore
-    ├── .prettierrc
-    ├── angular.json
-    ├── package-lock.json
-    ├── package.json
-    ├── README.md
-    ├── tsconfig.app.json
-    ├── tsconfig.json
-    └── tsconfig.spec.json
+├── angular-interview/
+│   ├── .vscode/ (3 files)
+│   ├── public/ (1 file)
+│   ├── src/ (20 files)
+│   ├── try/ (4 files)
+│   ├── .editorconfig
+│   ├── .gitignore
+│   ├── .prettierrc
+│   ├── angular.json
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   └── tsconfig.spec.json
+└── README.md
 ```
 
 ## Questions
