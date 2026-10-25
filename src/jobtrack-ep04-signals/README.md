@@ -6,7 +6,7 @@
 
 > Source code for **Angular Signals Tutorial Bangla: httpResource আর computed | Ep 4** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
 
-[← Ep 3: Minimal API vs Controller: Validation and ProblemDetails](../jobtrack-ep03-minimal-api) · [All videos](../../README.md#videos)
+[← Ep 3: Minimal API vs Controller: Validation and ProblemDetails](../jobtrack-ep03-minimal-api) · [All videos](../../README.md#videos) · [Ep 5: Angular Signal Forms: Form Validation and an API Check →](../jobtrack-ep05-signal-forms)
 
 Angular Signals tutorial in Bangla: why signals matter in Angular 22, a filter and counts with computed, and API data with httpResource instead of subscribe, with loading and errors.
 

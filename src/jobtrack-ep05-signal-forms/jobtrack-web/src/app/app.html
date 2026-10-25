@@ -1,0 +1,53 @@
+<main class="layout">
+  <section>
+    <h1>JobTrack</h1>
+    <p class="sub">My job applications</p>
+
+    @if (jobs.isLoading()) {
+      <p class="info">Loading jobs...</p>
+    }
+
+    @if (jobs.error()) {
+      <p class="error">
+        Could not load jobs.
+        <button (click)="jobs.reload()">Retry</button>
+      </p>
+    }
+
+    @if (jobs.hasValue()) {
+      <nav class="filters">
+        @for (status of statuses; track status) {
+          <button
+            [class.active]="filter() === status"
+            (click)="filter.set(status)"
+          >
+            {{ status }} <span>{{ counts()[status] ?? 0 }}</span>
+          </button>
+        }
+      </nav>
+
+      <ul>
+        @for (job of shown(); track job.id) {
+          <li>
+            <strong>{{ job.company }}</strong> {{ job.role }}
+            <span class="status">{{ job.status }}</span>
+            <button class="edit" (click)="editing.set(job)">
+              Edit
+            </button>
+            <button class="remove" (click)="remove(job)">Delete</button>
+          </li>
+        } @empty {
+          <li class="empty">No jobs yet</li>
+        }
+      </ul>
+    }
+  </section>
+
+  <aside>
+    <app-job-form
+      [job]="editing()"
+      (saved)="onSaved()"
+      (cancelled)="editing.set(null)"
+    />
+  </aside>
+</main>
