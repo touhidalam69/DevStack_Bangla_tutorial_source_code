@@ -30,6 +30,9 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 11 | [Angular Signals Tutorial: httpResource and computed \| Full Stack Ep 4 (Bangla)](src/jobtrack-ep04-signals) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
 | 13 | [Angular Interview Questions and Answers 2026: Signals, effect, OnPush (Angular 22)](src/angular-interview-questions) | Angular 22 | Coming soon |
 | 14 | [Angular Signal Forms: Form Validation and an API Check \| Full Stack Ep 5 (Bangla)](src/jobtrack-ep05-signal-forms) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
+| 16 | [Node.js REST API in Bangla: TypeScript, PostgreSQL and Drizzle ORM CRUD](src/node-rest-api-drizzle) | Node.js | Coming soon |
+| 17 | [Pagination in ASP.NET Core Web API: Sorting, Filtering, Angular \| Full Stack Ep 6 (Bangla)](src/jobtrack-ep06-paging) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
+| 18 | [Context Engineering vs Prompt Engineering in Bangla: One AI Agent, Three Runs](src/context-engineering) | Node.js | Coming soon |
 |  | [What is Jev? TypeSafe's AI Model That Gives Decisions, Not Text (C# Demo)](src/what-is-jev) | .NET 10 | [▶ Watch](https://youtu.be/3H4fZ-bM6IU) |
 <!-- videos:end -->
 

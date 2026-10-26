@@ -6,7 +6,7 @@
 
 > Source code for **Angular Signal Forms Bangla: Form Validation আর API Check | Ep 5** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
 
-[← Ep 4: Angular Signals Tutorial: httpResource and computed](../jobtrack-ep04-signals) · [All videos](../../README.md#videos)
+[← Ep 4: Angular Signals Tutorial: httpResource and computed](../jobtrack-ep04-signals) · [All videos](../../README.md#videos) · [Ep 6: Pagination in ASP.NET Core Web API: Sorting, Filtering, Angular →](../jobtrack-ep06-paging)
 
 Angular Signal Forms in Bangla: forms without FormGroup in Angular 22, validation rules and error messages, submitting to the API, a duplicate check against the API while you type, and editing with the same form.
 

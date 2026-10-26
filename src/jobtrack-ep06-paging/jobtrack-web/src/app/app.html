@@ -1,0 +1,80 @@
+<main class="layout">
+  <section>
+    <h1>JobTrack</h1>
+    <p class="sub">My job applications</p>
+
+    @if (jobs.error()) {
+      <p class="error">
+        Could not load jobs.
+        <button (click)="jobs.reload()">Retry</button>
+      </p>
+    }
+
+    <nav class="filters">
+      @for (status of statuses; track status) {
+        <button
+          [class.active]="filter() === status"
+          (click)="filter.set(status)"
+        >
+          {{ status }}
+        </button>
+      }
+    </nav>
+
+    <table>
+      <thead>
+        <tr>
+          <th (click)="sortBy('company')">Company {{ arrow('company') }}</th>
+          <th>Role</th>
+          <th (click)="sortBy('status')">Status {{ arrow('status') }}</th>
+          <th (click)="sortBy('appliedOn')">
+            Applied {{ arrow('appliedOn') }}
+          </th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (job of rows(); track job.id) {
+          <tr>
+            <td><strong>{{ job.company }}</strong></td>
+            <td>{{ job.role }}</td>
+            <td><span class="status">{{ job.status }}</span></td>
+            <td>{{ job.appliedOn }}</td>
+            <td class="actions">
+              <button class="edit" (click)="editing.set(job)">Edit</button>
+              <button class="remove" (click)="remove(job)">Delete</button>
+            </td>
+          </tr>
+        } @empty {
+          <tr>
+            <td colspan="5" class="empty">No jobs on this page</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+
+    <nav class="pager">
+      <button
+        [disabled]="page() === 1"
+        (click)="page.update((p) => p - 1)"
+      >
+        Prev
+      </button>
+      <span>Page {{ page() }} of {{ pages() }} · {{ total() }} jobs</span>
+      <button
+        [disabled]="page() >= pages()"
+        (click)="page.update((p) => p + 1)"
+      >
+        Next
+      </button>
+    </nav>
+  </section>
+
+  <aside>
+    <app-job-form
+      [job]="editing()"
+      (saved)="onSaved()"
+      (cancelled)="editing.set(null)"
+    />
+  </aside>
+</main>
