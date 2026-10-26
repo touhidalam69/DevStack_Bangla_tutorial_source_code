@@ -60,7 +60,7 @@ the build and does not have this episode's duplicate rule.
 
 ## Project structure
 
-Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/jobtrack-ep05-signal-forms/source.zip) (46 files).
+Browse the files above, or download them all as [source.zip](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/jobtrack-ep05-signal-forms/source.zip) (47 files).
 
 ```
 jobtrack-ep05-signal-forms/
@@ -92,7 +92,8 @@ jobtrack-ep05-signal-forms/
 │   ├── JobTrack.Api.http
 │   └── Program.cs
 ├── dotnet-tools.json
-└── JobTrack.slnx
+├── JobTrack.slnx
+└── README.md
 ```
 
 ## Questions

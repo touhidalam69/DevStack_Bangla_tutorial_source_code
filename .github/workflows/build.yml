@@ -41,10 +41,16 @@ jobs:
         with:
           dotnet-version: 10.0.x
       - name: Set up Node.js
-        if: hashFiles(format('{0}/**/package.json', matrix.folder), format('{0}/**/*.js', matrix.folder), format('{0}/**/*.mjs', matrix.folder)) != ''
+        if: hashFiles(format('{0}/.nvmrc', matrix.folder)) == '' && hashFiles(format('{0}/**/package.json', matrix.folder), format('{0}/**/*.js', matrix.folder), format('{0}/**/*.mjs', matrix.folder)) != ''
         uses: actions/setup-node@v7
         with:
           node-version: 24
+      # a folder that needs another Node.js version says so in its .nvmrc (the Node.js 26 video does)
+      - name: Set up Node.js from the folder's .nvmrc
+        if: hashFiles(format('{0}/.nvmrc', matrix.folder)) != ''
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: ${{ matrix.folder }}/.nvmrc
       - name: Build and test
         env:
           FOLDER: ${{ matrix.folder }}
