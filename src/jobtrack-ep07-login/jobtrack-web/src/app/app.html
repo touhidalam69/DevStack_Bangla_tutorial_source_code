@@ -1,0 +1,15 @@
+<main>
+  <header>
+    <div>
+      <h1>JobTrack</h1>
+      <p class="sub">My job applications</p>
+    </div>
+    @if (auth.email()) {
+      <div class="user">
+        {{ auth.email() }}
+        <button (click)="logout()">Sign out</button>
+      </div>
+    }
+  </header>
+  <router-outlet />
+</main>

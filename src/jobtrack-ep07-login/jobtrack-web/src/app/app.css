@@ -1,0 +1,23 @@
+main {
+  max-width: 1120px;
+  margin: 32px auto;
+  font-family: system-ui, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+h1 { margin: 0; font-size: 40px; }
+.sub { color: #64748b; margin: 4px 0 0; }
+.user { display: flex; gap: 12px; align-items: center; color: #475569; }
+.user button {
+  font: inherit;
+  font-size: 14px;
+  padding: 6px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}

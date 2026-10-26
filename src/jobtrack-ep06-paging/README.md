@@ -6,7 +6,7 @@
 
 > Source code for **Pagination in ASP.NET Core Web API: Sorting, Filtering, Angular | Ep 6** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
 
-[← Ep 5: Angular Signal Forms: Form Validation and an API Check](../jobtrack-ep05-signal-forms) · [All videos](../../README.md#videos)
+[← Ep 5: Angular Signal Forms: Form Validation and an API Check](../jobtrack-ep05-signal-forms) · [All videos](../../README.md#videos) · [Ep 7: ASP.NET Core Identity + Angular Login: JWT or Cookie? →](../jobtrack-ep07-login)
 
 Pagination in ASP.NET Core Web API in Bangla: server-side paging with EF Core Skip and Take, sorting and filtering, then a table and pager in Angular 22 with httpResource.
 

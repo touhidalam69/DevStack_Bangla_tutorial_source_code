@@ -1,0 +1,26 @@
+<form [formRoot]="loginForm" class="login">
+  <h2>Sign in</h2>
+
+  <label>
+    Email
+    <input type="email" [formField]="loginForm.email" />
+    @if (loginForm.email().touched()) {
+      @for (e of loginForm.email().errors(); track e.kind) {
+        <small class="error">{{ e.message }}</small>
+      }
+    }
+  </label>
+
+  <label>
+    Password
+    <input type="password" [formField]="loginForm.password" />
+  </label>
+
+  @for (e of loginForm().errors(); track e.kind) {
+    <p class="error">{{ e.message }}</p>
+  }
+
+  <button type="submit" [disabled]="loginForm().submitting()">
+    {{ loginForm().submitting() ? 'Signing in...' : 'Sign in' }}
+  </button>
+</form>

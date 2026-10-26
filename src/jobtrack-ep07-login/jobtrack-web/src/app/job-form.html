@@ -1,0 +1,60 @@
+<form [formRoot]="jobForm" class="job-form">
+  <h2>{{ job() ? 'Edit job' : 'Add a job' }}</h2>
+
+  <label>
+    Company
+    <input [formField]="jobForm.company" />
+    @if (jobForm.company().pending()) {
+      <small class="info">Checking...</small>
+    }
+    @if (jobForm.company().touched()) {
+      @for (e of jobForm.company().errors(); track e.kind) {
+        <small class="error">{{ e.message }}</small>
+      }
+    }
+  </label>
+
+  <label>
+    Role
+    <input [formField]="jobForm.role" />
+    @if (jobForm.role().touched()) {
+      @for (e of jobForm.role().errors(); track e.kind) {
+        <small class="error">{{ e.message }}</small>
+      }
+    }
+  </label>
+
+  <label>
+    Status
+    <select [formField]="jobForm.status">
+      @for (s of statuses; track s) {
+        <option [value]="s">{{ s }}</option>
+      }
+    </select>
+  </label>
+
+  <label>
+    Applied on
+    <input type="date" [formField]="jobForm.appliedOn" />
+    @if (jobForm.appliedOn().touched()) {
+      @for (e of jobForm.appliedOn().errors(); track e.kind) {
+        <small class="error">{{ e.message }}</small>
+      }
+    }
+  </label>
+
+  <div class="actions">
+    <button type="submit" [disabled]="jobForm().submitting()">
+      @if (jobForm().submitting()) {
+        Saving...
+      } @else {
+        {{ job() ? 'Save' : 'Add job' }}
+      }
+    </button>
+    @if (job()) {
+      <button type="button" class="cancel" (click)="cancelled.emit()">
+        Cancel
+      </button>
+    }
+  </div>
+</form>
