@@ -2,7 +2,7 @@
 
 # Will AI Cut Bangladesh's IT and Freelancing Jobs? Real Data and a Real Test
 
-[![Coming soon on YouTube](https://img.shields.io/badge/YouTube-coming%20soon-lightgrey?logo=youtube&logoColor=white)](https://www.youtube.com/@devstackbangla) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/ai-bd-freelancing/source.zip) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white)
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-FF0000?logo=youtube&logoColor=white)](https://youtu.be/DY4fLo6ArLA) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/ai-bd-freelancing/source.zip) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white)
 
 > Source code for **AI কি বাংলাদেশের IT আর freelancing চাকরি কমাবে?** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
 
@@ -51,6 +51,6 @@ ai-bd-freelancing/
 
 ## Questions
 
-Ask in the comments of the video, in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
+Ask in the comments of [the video](https://youtu.be/DY4fLo6ArLA), in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
 
 More in the playlists on [DevStack Bangla](https://www.youtube.com/@devstackbangla): Programming Career & Tech Trends | Bangla; AI for Developers | Bangla (Claude Code, MCP, AI Agent, RAG).
