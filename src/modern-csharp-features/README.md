@@ -2,7 +2,7 @@
 
 # C# New Features: Records, Pattern Matching, Primary Constructors and C# 14 (old code vs modern)
 
-[![Coming soon on YouTube](https://img.shields.io/badge/YouTube-coming%20soon-lightgrey?logo=youtube&logoColor=white)](https://www.youtube.com/@devstackbangla) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/modern-csharp-features/source.zip) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white)
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-FF0000?logo=youtube&logoColor=white)](https://youtu.be/WK7tNr-y3zo) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/modern-csharp-features/source.zip) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white)
 
 > Source code for **C# New Features বাংলায়: Record, Pattern Matching, Primary Constructor** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
 
@@ -98,6 +98,6 @@ modern-csharp-features/
 
 ## Questions
 
-Ask in the comments of the video, in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
+Ask in the comments of [the video](https://youtu.be/WK7tNr-y3zo), in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
 
 More in the playlist on [DevStack Bangla](https://www.youtube.com/@devstackbangla): .NET & C# Tutorial | Bangla (ASP.NET Core, EF Core).

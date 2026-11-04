@@ -4,7 +4,7 @@
 
 [![Watch on YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-FF0000?logo=youtube&logoColor=white)](https://youtu.be/KKFa-bnTiJI) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/jobtrack-ep02-efcore/source.zip) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white) ![EF Core 10](https://img.shields.io/badge/EF%20Core-10-512BD4?logo=dotnet&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927) ![Angular 22](https://img.shields.io/badge/Angular-22-DD0031?logo=angular&logoColor=white)
 
-> Source code for **EF Core Code First + Migrations Bangla: AsNoTracking-এ Update কেন Save হলো না?** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
+> Source code for **Entity Framework Core Tutorial Bangla: Update কেন Save হলো না?** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
 
 [← Ep 1: ASP.NET Core Web API with Angular](../jobtrack-ep01-setup) · [All videos](../../README.md#videos) · [Ep 3: Minimal API vs Controller: Validation and ProblemDetails →](../jobtrack-ep03-minimal-api)
 

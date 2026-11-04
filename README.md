@@ -24,16 +24,16 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 5 | [Entity Framework Core Tutorial: SQL Server CRUD \| Full Stack Ep 2 (Bangla)](src/jobtrack-ep02-efcore) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/KKFa-bnTiJI) |
 | 6 | [MCP Server Tutorial: Build Your Own MCP Server in C# (.NET 10)](src/mcp-server-csharp) | .NET 10 | [▶ Watch](https://youtu.be/R6f5vxK1Bm8) |
 | 7 | [SQL Interview Questions and Answers: JOIN, NULL, GROUP BY, Window Functions (2026)](src/sql-interview-questions) |  | [▶ Watch](https://youtu.be/ElMlJG1oY8I) |
-| 8 | [Minimal API vs Controller: Validation and ProblemDetails \| ASP.NET Core Ep 3 (Bangla)](src/jobtrack-ep03-minimal-api) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
-| 9 | [Node.js 26 LTS in Bangla: Temporal, Running TypeScript and an Upgrade Guide](src/node-26-lts) | Node.js | Coming soon |
-| 10 | [C# New Features: Records, Pattern Matching, Primary Constructors and C# 14 (old code vs modern)](src/modern-csharp-features) | .NET 10 | Coming soon |
-| 11 | [Angular Signals Tutorial: httpResource and computed \| Full Stack Ep 4 (Bangla)](src/jobtrack-ep04-signals) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
-| 13 | [Angular Interview Questions and Answers 2026: Signals, effect, OnPush (Angular 22)](src/angular-interview-questions) | Angular 22 | Coming soon |
-| 14 | [Angular Signal Forms: Form Validation and an API Check \| Full Stack Ep 5 (Bangla)](src/jobtrack-ep05-signal-forms) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
-| 16 | [Node.js REST API in Bangla: TypeScript, PostgreSQL and Drizzle ORM CRUD](src/node-rest-api-drizzle) | Node.js | Coming soon |
-| 17 | [Pagination in ASP.NET Core Web API: Sorting, Filtering, Angular \| Full Stack Ep 6 (Bangla)](src/jobtrack-ep06-paging) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
-| 18 | [Context Engineering vs Prompt Engineering in Bangla: One AI Agent, Three Runs](src/context-engineering) | Node.js | Coming soon |
-| 19 | [async await in C#: Deadlock, async void and WhenAll (Bangla)](src/csharp-async-await) | .NET 10 | Coming soon |
+| 8 | [Minimal API vs Controller: Validation and ProblemDetails \| ASP.NET Core Ep 3 (Bangla)](src/jobtrack-ep03-minimal-api) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/ergECQ46IeE) |
+| 9 | [Node.js 26 LTS in Bangla: Temporal, Running TypeScript and an Upgrade Guide](src/node-26-lts) | Node.js | [▶ Watch](https://youtu.be/T9MLp7ugo1w) |
+| 10 | [C# New Features: Records, Pattern Matching, Primary Constructors and C# 14 (old code vs modern)](src/modern-csharp-features) | .NET 10 | [▶ Watch](https://youtu.be/WK7tNr-y3zo) |
+| 11 | [Angular Signals Tutorial: httpResource and computed \| Full Stack Ep 4 (Bangla)](src/jobtrack-ep04-signals) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/VFb-ee64O9c) |
+| 13 | [Angular Interview Questions and Answers 2026: Signals, effect, OnPush (Angular 22)](src/angular-interview-questions) | Angular 22 | [▶ Watch](https://youtu.be/GVDbvSio9UU) |
+| 14 | [Angular Signal Forms: Form Validation and an API Check \| Full Stack Ep 5 (Bangla)](src/jobtrack-ep05-signal-forms) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/v9-Me_Lvo8c) |
+| 16 | [Node.js REST API in Bangla: TypeScript, PostgreSQL and Drizzle ORM CRUD](src/node-rest-api-drizzle) | Node.js | [▶ Watch](https://youtu.be/pu4XPDLleM8) |
+| 17 | [Pagination in ASP.NET Core Web API: Sorting, Filtering, Angular \| Full Stack Ep 6 (Bangla)](src/jobtrack-ep06-paging) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/p0m1RLQgs1w) |
+| 18 | [Context Engineering vs Prompt Engineering in Bangla: One AI Agent, Three Runs](src/context-engineering) | Node.js | [▶ Watch](https://youtu.be/vaObYngXw5E) |
+| 19 | [async await in C#: Deadlock, async void and WhenAll (Bangla)](src/csharp-async-await) | .NET 10 | [▶ Watch](https://youtu.be/_x30-SM6ngY) |
 | 20 | [ASP.NET Core Identity + Angular Login: JWT or Cookie? \| Full Stack Ep 7 (Bangla)](src/jobtrack-ep07-login) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
 |  | [What is Jev? TypeSafe's AI Model That Gives Decisions, Not Text (C# Demo)](src/what-is-jev) | .NET 10 | [▶ Watch](https://youtu.be/3H4fZ-bM6IU) |
 <!-- videos:end -->
