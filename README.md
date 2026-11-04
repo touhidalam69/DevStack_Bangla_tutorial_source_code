@@ -35,6 +35,7 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 18 | [Context Engineering vs Prompt Engineering in Bangla: One AI Agent, Three Runs](src/context-engineering) | Node.js | [▶ Watch](https://youtu.be/vaObYngXw5E) |
 | 19 | [async await in C#: Deadlock, async void and WhenAll (Bangla)](src/csharp-async-await) | .NET 10 | [▶ Watch](https://youtu.be/_x30-SM6ngY) |
 | 20 | [ASP.NET Core Identity + Angular Login: JWT or Cookie? \| Full Stack Ep 7 (Bangla)](src/jobtrack-ep07-login) | .NET 10, EF Core 10, SQL Server, Angular 22 | Coming soon |
+| 51 | [Will AI Cut Bangladesh's IT and Freelancing Jobs? Real Data and a Real Test](src/ai-bd-freelancing) | Node.js | Coming soon |
 |  | [What is Jev? TypeSafe's AI Model That Gives Decisions, Not Text (C# Demo)](src/what-is-jev) | .NET 10 | [▶ Watch](https://youtu.be/3H4fZ-bM6IU) |
 <!-- videos:end -->
 

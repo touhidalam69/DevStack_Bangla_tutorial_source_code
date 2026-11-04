@@ -1,0 +1,9 @@
+DHAKA GADGET CORNER - Elephant Road
+Invoice: 1045
+Date: 04/11/2026
+Customer: Green Leaf Pharmacy
+
+Barcode scanner    x 1   @ 4,200
+USB hub            x 2   @ 650
+
+Total: Tk 5,500

@@ -1,0 +1,9 @@
+{
+  "name": "ai-freelance-gig-demo",
+  "private": true,
+  "type": "module",
+  "description": "A small data-entry gig an AI coding agent did, and the client's own check of it",
+  "scripts": {
+    "test": "node check.mjs ."
+  }
+}

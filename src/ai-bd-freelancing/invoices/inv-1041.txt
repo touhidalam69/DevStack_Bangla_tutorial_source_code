@@ -1,0 +1,9 @@
+DHAKA GADGET CORNER - Elephant Road
+Invoice: 1041
+Date: 01/11/2026
+Customer: Rahim Traders
+
+USB-C cable        x 4   @ 350
+Power bank 10000   x 1   @ 1,850
+
+Total: Tk 3,250

@@ -1,0 +1,10 @@
+DHAKA GADGET CORNER - Elephant Road
+Invoice: 1042
+Date: 02/11/2026
+Customer: Karim, Sons & Co.
+
+Wireless mouse     x 3   @ 800
+
+Subtotal: Tk 2,400
+Discount (10%): Tk 240
+Total due: Tk 2,160

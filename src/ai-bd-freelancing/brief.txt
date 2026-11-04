@@ -1,0 +1,3 @@
+Hi! I run a small gadget shop in Dhaka. This week's invoices are in the invoices folder.
+Please make one CSV file, invoices.csv, with the columns: date, invoice, customer, total_bdt.
+One row per invoice. Thanks!
