@@ -30,7 +30,7 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 11 | [Angular Signals Tutorial: httpResource and computed \| Full Stack Ep 4 (Bangla)](src/jobtrack-ep04-signals) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/VFb-ee64O9c) |
 | 13 | [Angular Interview Questions and Answers 2026: Signals, effect, OnPush (Angular 22)](src/angular-interview-questions) | Angular 22 | [▶ Watch](https://youtu.be/GVDbvSio9UU) |
 | 14 | [Angular Signal Forms: Form Validation and an API Check \| Full Stack Ep 5 (Bangla)](src/jobtrack-ep05-signal-forms) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/v9-Me_Lvo8c) |
-| 15 | [C# 15 New Features: Union Types, Closed Classes and .NET 11 Runtime Async](src/dotnet-11-csharp-15) | .NET 11 | Coming soon |
+| 15 | [C# 15 New Features: Union Types, Closed Classes and .NET 11 Runtime Async](src/dotnet-11-csharp-15) | .NET 11 | [▶ Watch](https://youtu.be/hcrMbyEiaw4) |
 | 16 | [Node.js REST API in Bangla: TypeScript, PostgreSQL and Drizzle ORM CRUD](src/node-rest-api-drizzle) | Node.js | [▶ Watch](https://youtu.be/pu4XPDLleM8) |
 | 17 | [Pagination in ASP.NET Core Web API: Sorting, Filtering, Angular \| Full Stack Ep 6 (Bangla)](src/jobtrack-ep06-paging) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/p0m1RLQgs1w) |
 | 18 | [Context Engineering vs Prompt Engineering in Bangla: One AI Agent, Three Runs](src/context-engineering) | Node.js | [▶ Watch](https://youtu.be/vaObYngXw5E) |
