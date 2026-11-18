@@ -1,0 +1,16 @@
+{
+  "name": "local-ai-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An AI agent in plain Node.js on a local Ollama model: two tools, one loop, no API key.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "chat": "node chat.mjs",
+    "agent": "node agent.mjs",
+    "test": "node --test tools.test.mjs",
+    "check": "node check.mjs"
+  }
+}

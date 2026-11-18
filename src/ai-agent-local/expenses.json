@@ -1,0 +1,19 @@
+[
+  { "date": "2026-10-01", "item": "Mess meal, week 1", "category": "food", "amount": 1150 },
+  { "date": "2026-10-02", "item": "Bus pass", "category": "transport", "amount": 600 },
+  { "date": "2026-10-03", "item": "Tea and snacks", "category": "food", "amount": 85 },
+  { "date": "2026-10-05", "item": "Mobile data pack", "category": "mobile", "amount": 399 },
+  { "date": "2026-10-06", "item": "Biryani with friends", "category": "food", "amount": 320 },
+  { "date": "2026-10-08", "item": "Mess meal, week 2", "category": "food", "amount": 1150 },
+  { "date": "2026-10-09", "item": "Rickshaw", "category": "transport", "amount": 60 },
+  { "date": "2026-10-11", "item": "Data structures book", "category": "books", "amount": 550 },
+  { "date": "2026-10-12", "item": "Groceries", "category": "food", "amount": 465 },
+  { "date": "2026-10-14", "item": "Uber to Mirpur", "category": "transport", "amount": 340 },
+  { "date": "2026-10-15", "item": "Mess meal, week 3", "category": "food", "amount": 1150 },
+  { "date": "2026-10-19", "item": "Fuchka", "category": "food", "amount": 120 },
+  { "date": "2026-10-20", "item": "Photocopy notes", "category": "books", "amount": 140 },
+  { "date": "2026-10-22", "item": "Mess meal, week 4", "category": "food", "amount": 1150 },
+  { "date": "2026-10-25", "item": "CNG", "category": "transport", "amount": 180 },
+  { "date": "2026-10-27", "item": "Pizza, birthday", "category": "food", "amount": 690 },
+  { "date": "2026-10-30", "item": "Tea and snacks", "category": "food", "amount": 95 }
+]
