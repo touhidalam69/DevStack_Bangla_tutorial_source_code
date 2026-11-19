@@ -1,0 +1,24 @@
+# PostgreSQL 19 for the video, and 18 beside it for the foreign-key timing.
+# From 18 on, the official image keeps its data under /var/lib/postgresql.
+services:
+  pg19:
+    image: postgres:19
+    environment:
+      POSTGRES_PASSWORD: demo
+      POSTGRES_DB: shop
+    ports:
+      - "5434:5432"
+    volumes:
+      - pg19data:/var/lib/postgresql
+  pg18:
+    image: postgres:18
+    environment:
+      POSTGRES_PASSWORD: demo
+      POSTGRES_DB: shop
+    ports:
+      - "5435:5432"
+    volumes:
+      - pg18data:/var/lib/postgresql
+volumes:
+  pg19data:
+  pg18data:

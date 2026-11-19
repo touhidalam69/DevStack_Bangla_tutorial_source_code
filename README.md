@@ -28,6 +28,7 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 9 | [Node.js 26 LTS in Bangla: Temporal, Running TypeScript and an Upgrade Guide](src/node-26-lts) | Node.js | [▶ Watch](https://youtu.be/T9MLp7ugo1w) |
 | 10 | [C# New Features: Records, Pattern Matching, Primary Constructors and C# 14 (old code vs modern)](src/modern-csharp-features) | .NET 10 | [▶ Watch](https://youtu.be/WK7tNr-y3zo) |
 | 11 | [Angular Signals Tutorial: httpResource and computed \| Full Stack Ep 4 (Bangla)](src/jobtrack-ep04-signals) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/VFb-ee64O9c) |
+| 12 | [PostgreSQL vs SQL Server: PostgreSQL 19 New Features, REPACK, Faster Foreign Keys](src/postgresql-19) |  | Coming soon |
 | 13 | [Angular Interview Questions and Answers 2026: Signals, effect, OnPush (Angular 22)](src/angular-interview-questions) | Angular 22 | [▶ Watch](https://youtu.be/GVDbvSio9UU) |
 | 14 | [Angular Signal Forms: Form Validation and an API Check \| Full Stack Ep 5 (Bangla)](src/jobtrack-ep05-signal-forms) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/v9-Me_Lvo8c) |
 | 15 | [C# 15 New Features: Union Types, Closed Classes and .NET 11 Runtime Async](src/dotnet-11-csharp-15) | .NET 11 | [▶ Watch](https://youtu.be/hcrMbyEiaw4) |
@@ -37,7 +38,7 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 19 | [async await in C#: Deadlock, async void and WhenAll (Bangla)](src/csharp-async-await) | .NET 10 | [▶ Watch](https://youtu.be/9sgvB4Ul8sM) |
 | 20 | [ASP.NET Core Identity + Angular Login: JWT or Cookie? \| Full Stack Ep 7 (Bangla)](src/jobtrack-ep07-login) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/6IbIObRxpN4) |
 | 51 | [Will AI Cut Bangladesh's IT and Freelancing Jobs? Real Data and a Real Test](src/ai-bd-freelancing) | Node.js | [▶ Watch](https://youtu.be/DY4fLo6ArLA) |
-| 52 | [AI Agent Bangla Tutorial: Build Your Own Free, Local AI Agent (Node.js + Ollama)](src/ai-agent-local) | Node.js | Coming soon |
+| 52 | [AI Agent Bangla Tutorial: Build Your Own Free, Local AI Agent (Node.js + Ollama)](src/ai-agent-local) | Node.js | [▶ Watch](https://youtu.be/VKRF0GqJJ18) |
 |  | [What is Jev? TypeSafe's AI Model That Gives Decisions, Not Text (C# Demo)](src/what-is-jev) | .NET 10 | [▶ Watch](https://youtu.be/3H4fZ-bM6IU) |
 <!-- videos:end -->
 
