@@ -2,7 +2,7 @@
 
 # PostgreSQL vs SQL Server: PostgreSQL 19 New Features, REPACK, Faster Foreign Keys
 
-[![Coming soon on YouTube](https://img.shields.io/badge/YouTube-coming%20soon-lightgrey?logo=youtube&logoColor=white)](https://www.youtube.com/@devstackbangla) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/postgresql-19/source.zip)
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-FF0000?logo=youtube&logoColor=white)](https://youtu.be/fdoshftPkZw) [![Download source.zip](https://img.shields.io/badge/Download%20source.zip-2EA44F?logo=github&logoColor=white)](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/raw/main/src/postgresql-19/source.zip)
 
 > Source code for **PostgreSQL vs SQL Server বাংলায়: PostgreSQL 19 New Features, REPACK** on [DevStack Bangla](https://www.youtube.com/@devstackbangla), narrated in Bangla with English subtitles.
 
@@ -102,6 +102,6 @@ postgresql-19/
 
 ## Questions
 
-Ask in the comments of the video, in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
+Ask in the comments of [the video](https://youtu.be/fdoshftPkZw), in Bangla or English, or [open an issue](https://github.com/touhidalam69/DevStack_Bangla_tutorial_source_code/issues/new/choose).
 
 More in the playlist on [DevStack Bangla](https://www.youtube.com/@devstackbangla): SQL Server & PostgreSQL.

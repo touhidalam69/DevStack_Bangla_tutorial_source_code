@@ -28,7 +28,7 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 9 | [Node.js 26 LTS in Bangla: Temporal, Running TypeScript and an Upgrade Guide](src/node-26-lts) | Node.js | [▶ Watch](https://youtu.be/T9MLp7ugo1w) |
 | 10 | [C# New Features: Records, Pattern Matching, Primary Constructors and C# 14 (old code vs modern)](src/modern-csharp-features) | .NET 10 | [▶ Watch](https://youtu.be/WK7tNr-y3zo) |
 | 11 | [Angular Signals Tutorial: httpResource and computed \| Full Stack Ep 4 (Bangla)](src/jobtrack-ep04-signals) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/VFb-ee64O9c) |
-| 12 | [PostgreSQL vs SQL Server: PostgreSQL 19 New Features, REPACK, Faster Foreign Keys](src/postgresql-19) |  | Coming soon |
+| 12 | [PostgreSQL vs SQL Server: PostgreSQL 19 New Features, REPACK, Faster Foreign Keys](src/postgresql-19) |  | [▶ Watch](https://youtu.be/fdoshftPkZw) |
 | 13 | [Angular Interview Questions and Answers 2026: Signals, effect, OnPush (Angular 22)](src/angular-interview-questions) | Angular 22 | [▶ Watch](https://youtu.be/GVDbvSio9UU) |
 | 14 | [Angular Signal Forms: Form Validation and an API Check \| Full Stack Ep 5 (Bangla)](src/jobtrack-ep05-signal-forms) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/v9-Me_Lvo8c) |
 | 15 | [C# 15 New Features: Union Types, Closed Classes and .NET 11 Runtime Async](src/dotnet-11-csharp-15) | .NET 11 | [▶ Watch](https://youtu.be/hcrMbyEiaw4) |
