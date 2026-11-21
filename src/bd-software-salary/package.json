@@ -1,0 +1,15 @@
+{
+  "name": "bd-software-salary-demo",
+  "private": true,
+  "type": "module",
+  "description": "Median software engineer salaries in Bangladesh by experience, from a published 2026 table, and a yearly offer comparison",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "fetch": "node fetch.mjs",
+    "analyze": "node analyze.mjs",
+    "offer": "node offer.mjs",
+    "test": "node --test"
+  }
+}

@@ -39,6 +39,7 @@ DevStack Bangla চ্যানেলের ভিডিওগুলোর sourc
 | 20 | [ASP.NET Core Identity + Angular Login: JWT or Cookie? \| Full Stack Ep 7 (Bangla)](src/jobtrack-ep07-login) | .NET 10, EF Core 10, SQL Server, Angular 22 | [▶ Watch](https://youtu.be/6IbIObRxpN4) |
 | 51 | [Will AI Cut Bangladesh's IT and Freelancing Jobs? Real Data and a Real Test](src/ai-bd-freelancing) | Node.js | [▶ Watch](https://youtu.be/DY4fLo6ArLA) |
 | 52 | [AI Agent Bangla Tutorial: Build Your Own Free, Local AI Agent (Node.js + Ollama)](src/ai-agent-local) | Node.js | [▶ Watch](https://youtu.be/VKRF0GqJJ18) |
+| 53 | [Software Engineer Salary in Bangladesh 2026: Real Data by Experience, and the Job Market](src/bd-software-salary) | Node.js | Coming soon |
 |  | [What is Jev? TypeSafe's AI Model That Gives Decisions, Not Text (C# Demo)](src/what-is-jev) | .NET 10 | [▶ Watch](https://youtu.be/3H4fZ-bM6IU) |
 <!-- videos:end -->
 
